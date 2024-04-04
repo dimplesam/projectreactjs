@@ -3,6 +3,7 @@ import ArrayMapDemo from "../Components/ArrayMapDemo";
 import Counter from "../Components/Counter";
 import Destructuring from "../Components/Destructuring";
 import FormDemo from "../Components/FormDemo";
+import FornHandling from "../Components/FornHandling";
 import ImageGallery from "../Components/ImageGallery";
 import LightBulb from "../Components/LightBulb";
 import MUiComponents from "../Components/MUiComonents";
@@ -113,5 +114,10 @@ export const routes = [
     id: 19,
     path: "/form",
     component: FormDemo,
+  },
+  {
+    id: 20,
+    path: "/form-handling",
+    component: FornHandling,
   },
 ];
