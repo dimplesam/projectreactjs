@@ -12,6 +12,7 @@ import Products from "../Components/Products";
 import Props from "../Components/Props";
 import PropsDemo3 from "../Components/PropsDemo3";
 import Task from "../Components/Task";
+import Uncontrolled from "../Components/Uncontrolled";
 import UseContext from "../Components/UseContext";
 import UseEffectDemo from "../Components/UseEffectDemo";
 import UseEffectDemo2 from "../Components/UseEffectDemo2";
@@ -119,5 +120,10 @@ export const routes = [
     id: 20,
     path: "/form-handling",
     component: FornHandling,
+  },
+  {
+    id: 21,
+    path: "/uncontrolled",
+    component: Uncontrolled,
   },
 ];
