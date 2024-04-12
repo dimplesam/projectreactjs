@@ -17,8 +17,10 @@ import UseContext from "../Components/UseContext";
 import UseEffectDemo from "../Components/UseEffectDemo";
 import UseEffectDemo2 from "../Components/UseEffectDemo2";
 import UseStateDemo from "../Components/UseStateDemo";
+import FileUpload from "../FileUpload";
 import Home from "../Pages/Home";
 import Tabs from "../Tabs";
+import BRArchitects from "../projcect";
 
 export const routes = [
   {
@@ -125,5 +127,15 @@ export const routes = [
     id: 21,
     path: "/uncontrolled",
     component: Uncontrolled,
+  },
+  {
+    id: 22,
+    path: "/file-upload",
+    component: FileUpload,
+  },
+  {
+    id: 23,
+    path: "/file-upload",
+    component: BRArchitects,
   },
 ];
